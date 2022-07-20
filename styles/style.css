@@ -50,7 +50,7 @@ main {
     height: 20px;
     background: #DD0000;
     border-radius: 5px;
-    transition: width 5s;
+    /* transition: width 5s; */
 }
 
 .top-btn:hover {
@@ -60,7 +60,7 @@ main {
 #marcelo {
     width: 415px;
     height: 480px;
-    transition: 2s linear;
+    /* transition: 2s linear; */
 }
 
 #marcelo:hover {
@@ -140,6 +140,17 @@ main {
 }
 
 /* article secton styles end  */
+/* view all button styles starts */
+.view-all{
+    display: none;
+    text-align: center;
+}
+.view-all a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+/* view all button styles end  */
 /* footer styles stars */
 footer {
     margin-top: 6em;
@@ -200,4 +211,45 @@ hr {
 
 /* responsive layout sharts  */
 
-/* for tablet divices */
+/* --------------for mobie divices
+-------------------------------- */
+@media screen and (max-width:688px) {
+    .top-banner{
+        display: flex;
+        flex-direction: column;
+        width: 334px;
+        height: 472px;
+    }
+    .banner-info{
+        width: 258px;
+        height: 178px;
+    }
+    .banner-text{
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .banner-info p{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .top-btn{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 8px 12px;
+        gap: 10px;
+    }
+    #marcelo{
+        width: 233px;
+        height: 245px;
+    }
+    .blog-item{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
