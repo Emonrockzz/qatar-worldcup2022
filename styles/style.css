@@ -79,7 +79,6 @@ main {
     height: 230px;
     background-color: #161616;
     border-radius: 10px;
-    border: 1px solid green;
 }
 
 .upcoming-match {
@@ -128,6 +127,7 @@ main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.342);
 }
 
 .blog-image {
@@ -214,13 +214,22 @@ hr {
 /* --------------for mobie divices
 -------------------------------- */
 @media screen and (max-width:688px) {
+    header{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
     .top-banner{
         display: flex;
         flex-direction: column;
-        width: 334px;
-        height: 472px;
+        align-items: center;
+        justify-content: space-around;
+        width: 330px;
+        height: 500px;
     }
     .banner-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 258px;
         height: 178px;
     }
@@ -230,18 +239,31 @@ hr {
     }
     .banner-info p{
         font-weight: 400;
-        font-size: 14px;
+        font-size: 11px;
+        margin-bottom: 2px;
     }
     .top-btn{
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
         padding: 8px 12px;
         gap: 10px;
+        align-items: center;
+        justify-content: center;
     }
     #marcelo{
         width: 233px;
         height: 245px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .matches{
+        margin: 20px;
+        background-color:#E8E8E8;
     }
     .blog-item{
         display: grid;
@@ -251,5 +273,12 @@ hr {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .footer-info li{
+        padding-top: 20px;
+        padding-right: 40px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #B9B9B9;
     }
 }
