@@ -204,6 +204,77 @@ hr {
 /* matches.htmls styles end  */
 
 /* responsive layout sharts  */
+/* -----------------
+--------------for Tablets divices start */
+@media screen and (min-width:689px) and (max-width:992px) {
+    .top-banner{
+        width: 580px;
+        height: 340px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .banner-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+    .banner-text{
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 0px
+    }
+    #marcelo{
+        width: 275px;
+        height: 315px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .matches{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 588px;
+        height: 90px;
+        background-color: white;
+    }
+    .upcoming-match{
+        display: flex;
+        width: 521px;
+        gap: 20px;
+    }
+    .new-match{
+        border: 1px solid rgba(0, 0, 0, 0.397);
+    }
+    .blog-item{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .view-all{
+        display: flex;
+        justify-content: center;
+    }
+    .view-all a{
+        text-decoration: none;
+        padding: 15px 45px;
+        background-color: red;
+        color: white;
+        border: 2px solid red;
+        border-radius: 5px;
+        margin: 30px;
+    }
+    .footer-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-weight: 500;
+        font-size: 16px;
+        color: #B9B9B9;
+    }
+}
+/*-------------------------------
+Tablets styles end ------------ */
 
 /* --------------for mobie divices
 -------------------------------- */
@@ -281,3 +352,5 @@ hr {
         flex-direction: column;
     }
 }
+
+/* mobie responsive styles end  */
