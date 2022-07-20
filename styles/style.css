@@ -275,4 +275,8 @@ hr {
         font-size: 14px;
         color: #B9B9B9;
     }
+    .flags{
+        display: flex;
+        flex-direction: column;
+    }
 }
