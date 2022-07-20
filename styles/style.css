@@ -50,7 +50,7 @@ main {
     height: 20px;
     background: #DD0000;
     border-radius: 5px;
-    /* transition: width 5s; */
+    transition: width 3s;
 }
 
 .top-btn:hover {
