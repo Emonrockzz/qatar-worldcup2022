@@ -60,12 +60,10 @@ main {
 #marcelo {
     width: 415px;
     height: 480px;
-    /* transition: 2s linear; */
 }
 
 #marcelo:hover {
     width: 450px;
-    transform: rotate(5deg);
 }
 
 /* top banner styles end */
