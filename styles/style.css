@@ -273,6 +273,7 @@ hr {
         color: #B9B9B9;
     }
     .flags{
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -356,4 +357,5 @@ Tablets styles end ------------ */
     }
 }
 
-/* mobie responsive styles end  */
+/*--------------------------------------
+ mobie responsive styles end---------  */
